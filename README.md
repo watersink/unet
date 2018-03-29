@@ -5,7 +5,9 @@ the original author's code is [here](https://lmb.informatik.uni-freiburg.de/peop
 ## the architecture of the network from original paper
 ![image](https://github.com/watersink/unet/raw/master/image/network.jpg)
 our changes:
+> 
 1,the conv's padding is same,the paper is valid
+> 
 2,the loss is the original binary_crossentropy,the paper is weighted binary_crossentropy
 
 ## what you need 
@@ -36,5 +38,6 @@ finally,you will get train acc(%96.8+),val acc(%91+),val loss(0.2)
 
 
 ## references:
- [https://zhuanlan.zhihu.com/p/26659914](https://zhuanlan.zhihu.com/p/26659914)
- [https://github.com/zhixuhao/unet](https://github.com/zhixuhao/unet)
+[https://zhuanlan.zhihu.com/p/26659914](https://zhuanlan.zhihu.com/p/26659914)
+> 
+[https://github.com/zhixuhao/unet](https://github.com/zhixuhao/unet)
