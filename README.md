@@ -25,9 +25,11 @@ our changes:
 
 ### prepare data
 the data is ISBI datasets,can be downloaded [here](http://brainiac2.mit.edu/isbi_challenge/)
- also we have added the dataset in the folder ISBI£¬
-there are three .tif
+> 
+also we have added the dataset in the folder ISBI,there are three .tif
+> 
 	python2 split_merge_tif.py
+> 
 then you will get images in data folder(30 train images and labels,30 test images)
 ### training
 	python3 train_unet.py
