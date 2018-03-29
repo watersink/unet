@@ -12,10 +12,13 @@ our changes:
 
 ## what you need 
 * Tensorflow>1.2
-	pip install tensorflow-gpu
+> 
+ 	pip install tensorflow-gpu
 * Keras >= 1.0
+> 
 	pip install keras
 * libtiff,can be download [here](https://pypi.python.org/pypi/libtiff),also we add it in libtiff-0.4.2.tar.gz
+> 
 	python2 setup.py install
 
 ## how to begin
